@@ -1,6 +1,6 @@
 # My Security Journey
 
-Documenting my path into offensive security, red teaming, and penetration testing, one room, one project, and one writeup at a time.
+Documenting my path into offensive security, red teaming, and penetration testing — one room, one project, and one writeup at a time.
 
 ## About
 
@@ -12,28 +12,28 @@ I learn primarily through TryHackMe and a home lab I've built and maintain mysel
 
 My planned path, in order:
 
-Cisco Networking Academy (CCNA) — core networking fundamentals, the foundation everything else builds on
+1. **Cisco Networking Academy (CCNA)** — core networking fundamentals, the foundation everything else builds on
+2. **CompTIA Security+** — foundational security theory and terminology *(in progress)*
+3. **CEH (Certified Ethical Hacker)** — structured offensive methodology
+4. **OSCP (Offensive Security Certified Professional)** — hands-on penetration testing, the long-term goal
 
-CompTIA Security+ — foundational security theory and terminology (in progress)
+## What's in This Repo
 
-CEH (Certified Ethical Hacker) — structured offensive methodology
-
-OSCP (Offensive Security Certified Professional) — hands-on penetration testing, the long-term goal
-What's in This Repo
-
-## Folder	Contents
-
-ctf-writeups/	Writeups from TryHackMe rooms and other CTF-style challenges, covering recon, exploitation, and lessons learned for each box
-projects/	Hands-on tools and builds, both offensive (scripts, exploits) and defensive (home lab hardening, monitoring configs), plus hardware projects
-notes/	Study notes and reference material, networking fundamentals, command wikis, and Security+ prep, spanning both attack and defense
+| Folder | Contents |
+|---|---|
+| [`CTF-writeups/`](CTF-writeups/) | Writeups from TryHackMe rooms and other CTF-style challenges — recon, exploitation, and lessons learned for each box |
+| [`TryHackMe-paths/`](TryHackMe-paths/) | Completed TryHackMe learning paths and their certificates |
+| [`projects/`](projects/) | Hands-on builds, offensive and defensive — home lab, hardening, privacy tooling, hardware |
+| [`notes/`](notes/) | Study notes and reference material — networking fundamentals, command wikis, Security+ prep |
 
 ## Best Writeups
 
 Start here if you want to see what I can actually do rather than dig through every folder:
 
-Vulnversity — enumeration, file upload bypass, and reverse shell exploitation on a beginner-friendly TryHackMe box
+- [**Vulnversity**](CTF-writeups/vulnversity.md) — enumeration, file upload bypass, and reverse shell exploitation on a beginner-friendly TryHackMe box
+- [**Kenobi**](CTF-writeups/kenobi-writeup.md) — Linux exploitation, service misconfiguration, and privilege escalation
 
-(More writeups added as rooms are completed, check ctf-writeups/ for the full list.)
+*(More writeups added as rooms are completed — check [`CTF-writeups/`](CTF-writeups/) for the full list.)*
 
 ## Get in Touch
 
